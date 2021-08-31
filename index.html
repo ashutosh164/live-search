@@ -1,0 +1,58 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Live Search with JS</title>
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container px-0">
+      <div class="row mx-0 mt-5">
+        <div class="col-md-10 px-0 mx-auto">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="text-center">Live Search with Javascript</h3>
+              <form action="#" class="mt-4">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="search"
+                    id="search"
+                    class="form-control shadow-none"
+                    placeholder="Search by Name or Id"
+                    autocomplete="off"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="submit"
+                    value="Search"
+                    class="btn btn-primary btn-block shadow-none"
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <p class="textContent text-secondary my-3"></p>
+
+          <table class="table mt-4">
+            <thead>
+              <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Address</th>
+                <th>Date</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/date-fns/1.30.1/date_fns.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
